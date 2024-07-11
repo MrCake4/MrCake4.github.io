@@ -16,3 +16,30 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+a:hover {
+    color:#000;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p {
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+div{
+    color: #fff;
+}
