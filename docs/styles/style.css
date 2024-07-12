@@ -68,7 +68,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Ensure the tunnel is behind the content */
+    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ body {
     height: 50vw;
     background-color: transparent;
     border: 50px solid #0f0f0f;
-    transform: rotate(45deg); /* Turn the square into a diamond */
+    transform: rotate(45deg);
     animation: shrink 10s infinite;
 }
 
