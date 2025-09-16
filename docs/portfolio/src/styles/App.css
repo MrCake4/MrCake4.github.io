@@ -1,0 +1,163 @@
+/* STANDARD */
+
+:root {
+    --backgroundColor: #0b090a;
+    --subtleBackgroundColor: #161a1d;
+    --titleColor: #fcfcfc;
+    --textColor: #f5f3f4;
+    --red1: #ba181b;
+    --small-icon-size: 3rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+.App {
+    background: var(--backgroundColor);
+    color: var(--textColor);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+/* HEADER */
+
+.App-navbar {
+    background: var(--backgroundColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--titleColor);
+    font-family: Times New Roman, serif;
+    font-size: 10rem;
+}
+
+#Winston {
+    color: var(--red1);
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    background: var(--subtleBackgroundColor);
+}
+
+.About {
+    width: 50%;
+    text-align: left;
+}
+
+.tech-stack ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.techIcon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: transform .2s;
+}
+
+.techIcon:hover {
+    transform: scale(1.1);
+}
+
+hr {
+    width: 55rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.SocialMedia-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.languageIcon {
+    width: var(--small-icon-size);
+}
+
+.code-project {
+    border: 1px solid var(--textColor);
+}
+
+/* FOOTER */
+
+.footer-container a, brainMade {
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+#brainMade {
+    width: 8rem;
+}
+
+/* UI-VERSE DESIGNS */
+.menu__link {
+    color: #fff;
+    line-height: 2;
+    position: relative;
+}
+
+.menu__link::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -.25rem;
+    right: 0;
+    transition: right .4s, width .4s, left .4s;
+}
+
+.menu__link:hover::before {
+    width: 100%;
+    left: 0;
+}
