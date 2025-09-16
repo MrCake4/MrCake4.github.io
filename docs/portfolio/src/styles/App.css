@@ -5,6 +5,7 @@
     --subtleBackgroundColor: #161a1d;
     --titleColor: #fcfcfc;
     --textColor: #f5f3f4;
+    --subtleTextColor: #737373;
     --red1: #ba181b;
     --small-icon-size: 3rem;
 }
@@ -12,6 +13,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    scroll-padding-top: 8rem;
 }
 
 body {
@@ -122,8 +124,22 @@ h2 {
     width: var(--small-icon-size);
 }
 
+.coding-projects-container {
+    width: 50%;
+}
+
 .code-project {
-    border: 1px solid var(--textColor);
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--subtleTextColor);
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.code-project > * {
+    margin: 1rem 1rem;
 }
 
 /* FOOTER */
@@ -148,13 +164,13 @@ h2 {
 .menu__link::before {
     content: '';
     width: 0;
-    height: 2px;
+    height: 5px;
     border-radius: 2px;
     background-color: #fff;
     position: absolute;
     bottom: -.25rem;
     right: 0;
-    transition: right .4s, width .4s, left .4s;
+    transition: right .8s, width .8s, left .8s;
 }
 
 .menu__link:hover::before {

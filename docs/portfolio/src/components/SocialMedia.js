@@ -10,7 +10,10 @@ const SocialMedia = () => {
             <h2>Social Media</h2>
             <hr/>
             <div className="link-container">
-                <a className={"Github"}><FontAwesomeIcon className={"icon"} icon={faGithub} size={icoSize}/></a>
+                <a className={"Github"} target={"_blank"}
+                    href={"https://github.com/MrCake4"}><FontAwesomeIcon className={"icon"}
+                                                                         icon={faGithub}
+                                                                         size={icoSize}/></a>
                 <a className={"LinkedIN"} target={"_blank"}
                    href={"https://www.linkedin.com/in/winston-reichelt-88a8522a8/"}><FontAwesomeIcon icon={faLinkedin}
                                                                                                      size={icoSize}/></a>

@@ -1,6 +1,6 @@
 import react from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faHtml5, faJava, faPython} from "@fortawesome/free-brands-svg-icons";
+import {faGit, faGithub, faHtml5, faJava, faPython} from "@fortawesome/free-brands-svg-icons";
 import {faFilm, faImage} from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
@@ -24,14 +24,23 @@ const About = () => {
                 <ul style={{}}>
                     <li className={"techIcon"}><FontAwesomeIcon icon={faHtml5} size={icoSize}/> <p>HTML, CSS, JS</p></li>
                     <li className={"techIcon"}><FontAwesomeIcon icon={faJava} size={icoSize}/> <p>JAVA</p></li>
+                    <li className={"techIcon"}><FontAwesomeIcon icon={faGit} size={icoSize}/> <p>Git</p> </li>
                     <li className={"techIcon"}><img
                         src={require("../styles/icons/csharpico.png")}
                         alt={"C# Icon"}
                         style={{width: "3rem"}}
                     /><p>C#</p> </li>
                     <li className={"techIcon"}><FontAwesomeIcon icon={faPython} size={icoSize}/> <p>Python</p></li>
-                    <li className={"techIcon"}><FontAwesomeIcon icon={faFilm} size={icoSize}/> <p>DaVinci Resolve</p></li>
-                    <li className={"techIcon"}><FontAwesomeIcon icon={faImage} size={icoSize}/> <p>Photoshop Lightroom</p></li>
+                    <li className={"techIcon"}><img
+                        src={require("../styles/icons/drico.png")}
+                        alt={"Davinci Resolve Icon"}
+                        style={{width: "3rem"}}
+                    /> <p>DaVinci Resolve</p></li>
+                    <li className={"techIcon"}><img
+                        src={require("../styles/icons/lrico.png")}
+                        alt={"Photoshop Lightroom Icon"}
+                        style={{width: "3rem"}}
+                    /> <p>Photoshop Lightroom</p></li>
                 </ul>
             </div>
             <div className={"techStack"}>

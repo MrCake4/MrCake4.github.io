@@ -47,13 +47,39 @@ const Projects = () => {
                    target={"_blank"}
                     style={{textDecoration: "none"}}
                 >
-                    <h3 className={"menu__link"}>Dolly's House</h3>
+                    <div className={"menu__link"}>
+                        <div className={"code-project"}>
+                            <h3>Dolly's House</h3>
+                            <p className={"code-project-date"}>2025</p>
+                        </div>
+                    </div>
                 </a>
-                <a href={""}
+                <a href={"https://github.com/MrCake4/RTX#"}
                    target={"_blank"}
                     style={{textDecoration: "none"}}
                 >
-                    <h3 className={"menu__link"}>Ray Tracer</h3></a>
+                    <div className={"menu__link"}>
+                        <div className={"code-project"}>
+                            <h3>Ray Tracer</h3>
+                            <p className={"code-project-date"}>2025</p>
+                        </div>
+                    </div>
+                </a>
+                <a href={"https://github.com/MrCake4/randomgifgenerator"}
+                   target={"_blank"}
+                   style={{textDecoration: "none"}}
+                >
+                    <div className={"menu__link"}>
+                        <div className={"code-project"}>
+                    <h3>Random GIF Generator</h3>
+                            <p className={"code-project-date"}>2024</p></div></div></a>
+                <a href={"https://github.com/MrCake4/rawditor"}
+                   target={"_blank"}
+                   style={{textDecoration: "none"}}
+                >
+                    <div className={"menu__link"}><div className={"code-project"}>
+                    <h3>Rawditor</h3>
+                    <p className={"code-project-date"}>2024</p></div></div></a>
             </div>
         </div>
     )
