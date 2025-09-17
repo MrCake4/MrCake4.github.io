@@ -88,6 +88,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: end;
+    flex-wrap: wrap;
 }
 
 .techIcon{
@@ -97,7 +98,11 @@ main {
     transition: transform .2s;
 }
 
-.techIcon:hover {
+.SocialMedia-link{
+    transition: transform .2s;
+}
+
+.techIcon:hover{
     transform: scale(1.1);
 }
 
@@ -140,6 +145,11 @@ h2 {
 
 .code-project > * {
     margin: 1rem 1rem;
+    color: var(--subtleTextColor);
+}
+
+.code-project:hover > * {
+    color: var(--textColor);
 }
 
 /* FOOTER */

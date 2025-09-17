@@ -7,8 +7,8 @@ const Film = (film) => {
     let description = film.description;
 
     const showInformation = () => {
-        let filminformationName = document.getElementById("filmName").value;
-        filminformationName.innerText = film.name;
+        let filmInformationName = document.getElementById("filmName").value;
+        filmInformationName.innerText = film.name;
         console.log("Film clicked")
 
     }

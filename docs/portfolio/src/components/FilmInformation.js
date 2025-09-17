@@ -1,7 +1,8 @@
 const FilmInformation = (dataID) => {
+
     return(
         <div className="FilmInformation">
-            <iframe src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"1280px"} height={"720px"} style={{border: "none"}}></iframe>
+            <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"1000rem"} height={"600rem"} style={{border: "none"}}></iframe>
             <h3 id={"filmName"}>test</h3>
             <table>
                 <tr>

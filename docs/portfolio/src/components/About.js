@@ -21,7 +21,7 @@ const About = () => {
                 Follow me on my journey as I try to unite my two passions, programming and film-making.</p>
             <div className={"tech-stack"}>
                 <h3>Tech Stack</h3>
-                <ul style={{}}>
+                <ul>
                     <li className={"techIcon"}><FontAwesomeIcon icon={faHtml5} size={icoSize}/> <p>HTML, CSS, JS</p></li>
                     <li className={"techIcon"}><FontAwesomeIcon icon={faJava} size={icoSize}/> <p>JAVA</p></li>
                     <li className={"techIcon"}><FontAwesomeIcon icon={faGit} size={icoSize}/> <p>Git</p> </li>
