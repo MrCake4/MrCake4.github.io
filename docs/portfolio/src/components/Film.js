@@ -3,18 +3,21 @@ import FilmInformation from "./FilmInformation";
 
 
 const Film = (film) => {
-    let filmname = film.filmName;
+    let filmName = film.filmName;
     let description = film.description;
+    let filmID = film.filmID;
+    let link = film.link;
 
     const showInformation = () => {
-        let filmInformationName = document.getElementById("filmName").value;
-        filmInformationName.innerText = film.name;
-        console.log("Film clicked")
+        console.log("Film clicked " + filmID)
+
+        let videoFrame = document.getElementById("videoFrame");
+        videoFrame.src = {link};
 
     }
 
     // Make titles shorter
-    if (filmname.length > 16) filmname = filmname.slice(0, 12) + "...";
+    if (filmName.length > 16) filmName = filmName.slice(0, 12) + "...";
 
     return (
         <div className="Film-Container" style={{alignContent: "center"}} onClick={showInformation}>
@@ -23,7 +26,7 @@ const Film = (film) => {
                  alt={film.alt}
                  style={{width: "15rem"}}
             />
-            <h3>{filmname}</h3>
+            <h3>{filmName}</h3>
         </div>
     )
 }
