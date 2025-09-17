@@ -8,7 +8,7 @@ let filmData = {
         production: "Winston J. Reichelt",
         desc: "Sommer Reichelt",
         awards: [],
-        link: "https://www.youtube.com/embed/AmszTknSqzA "
+        link: "https://www.youtube.com/embed/dQw4w9WgXcQ "
     },
     coex: {
         name: "Command Exit",
@@ -16,7 +16,8 @@ let filmData = {
         director: "Mika Rau & Winston J. Reichelt",
         production: "Jugendfilmcamp Arendsee",
         desc: "Sommer Reichelt",
-        awards: []
+        awards: [],
+        link: "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     mull: {
         name: "Müllschlucker",

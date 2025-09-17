@@ -9,10 +9,14 @@ const Film = (film) => {
     let link = film.link;
 
     const showInformation = () => {
-        console.log("Film clicked " + filmID)
+        console.log("Film clicked " + link)
 
         let videoFrame = document.getElementById("videoFrame");
-        videoFrame.src = {link};
+        let filmNameDisplay = document.getElementById("filmName")
+
+        // replace values of tags in FilmInformation.js
+        videoFrame.src = link;
+        filmNameDisplay.innerText = filmName;
 
     }
 
