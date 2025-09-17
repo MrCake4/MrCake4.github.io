@@ -1,7 +1,7 @@
 const FilmInformation = (dataID) => {
 
     return(
-        <div className="FilmInformation">
+        <div className="FilmInformation" id={"FilmInformationContainer"} hidden={true}>
             <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"1000rem"} height={"600rem"} style={{border: "none"}}></iframe>
             <h3 id={"filmName"}>test</h3>
             <table>

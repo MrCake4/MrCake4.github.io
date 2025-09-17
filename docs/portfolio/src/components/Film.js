@@ -13,11 +13,16 @@ const Film = (film) => {
 
         let videoFrame = document.getElementById("videoFrame");
         let filmNameDisplay = document.getElementById("filmName")
+        let filmInformationContainer = document.getElementById("FilmInformationContainer");
+
+        // set container to visible
+        if (filmInformationContainer.hidden) filmInformationContainer.hidden = false;
 
         // replace values of tags in FilmInformation.js
         videoFrame.src = link;
         filmNameDisplay.innerText = filmName;
 
+        videoFrame.scrollIntoView({ behavior: "smooth" });
     }
 
     // Make titles shorter

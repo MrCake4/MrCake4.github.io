@@ -152,6 +152,21 @@ h2 {
     color: var(--textColor);
 }
 
+.card {
+    backdrop-filter: blur(6px);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:active {
+    transform: scale(0.95);
+}
+
 /* FOOTER */
 
 .footer-container a, brainMade {

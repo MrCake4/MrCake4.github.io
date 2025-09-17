@@ -21,14 +21,15 @@ const Projects = () => {
                 {
                     // This lists all films from the film data component
                     Object.values(filmData).map((film, index) => (
-                    <Film
+                    <div className={"card"}>
+                        <Film
                         key={index}
                         filmName={film.name}
                         description={film.description}
                         img={(film.shortName || "placeholder") + ".jpg"}
                         alt={("Poster " + film.name) || ""}
                         link={film.link}
-                    />
+                        /></div>
                 ))
                 }
             </div>
