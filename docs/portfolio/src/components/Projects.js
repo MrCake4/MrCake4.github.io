@@ -17,28 +17,18 @@ const Projects = () => {
                      justifyContent: "space-between",
                      width: "50%",
                  }}>
-                <Film filmName={filmData.So89.name}
-                      img="sommer89.jpg"
-                      alt={"Poster Sommer '89"}/>
-                <Film filmName={"Command Exit"}
-                      img="commandExit.jpg"
-                      alt={"PosterCommand Exit"}/>
-                <Film filmName={"Müllschlucker"}
-                      img={"placeholder.jpg"}/>
-                <Film filmName={"Charlies Funny Fucking World"}
-                      img={"placeholder.jpg"}/>
-                <Film filmName={"Was ist Zeit?"}
-                      img={"placeholder.jpg"}/>
-                <Film filmName={"Addicts"}
-                      img={"placeholder.jpg"}/>
-                <Film filmName={"Einfach Cool bleiben"}
-                      img={"placeholder.jpg"}/>
-                <Film filmName={"A Shorts Story"}
-                      img={"placeholder.jpg"}/>
-                <Film filmName={"Reverse Turing"}
-                      img={"placeholder.jpg"}/>
-                <Film filmName={"Out of Sync"}
-                      img={"placeholder.jpg"}/>            
+
+                {
+                    // This lists all films from the film data component
+                    Object.values(filmData).map((film, index) => (
+                    <Film
+                        key={index}
+                        filmName={film.name}
+                        img={(film.shortName || "placeholder") + ".jpg"}
+                        alt={("Poster " + film.name) || ""}
+                    />
+                ))
+                }
             </div>
             <h2 id={"coding-projects"}>Coding Projects</h2>
             <hr/>
