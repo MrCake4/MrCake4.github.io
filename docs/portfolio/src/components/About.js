@@ -17,7 +17,7 @@ const About = () => {
                 Currently I am studying International Media and Computer Science at the University of Applied Sciences
                 Berlin (HTW). The major covers all core aspects of computer science and also delves into special
                 subjects like computer-graphics, web-development, image manipulation as well as 3D-design (modelling
-                and texturing in Maya) and game development. I am eager to grow my knowledge and enhance skills.
+                and texturing in Maya) and game development. I am eager to grow my knowledge and enhance my skills.
                 Follow me on my journey as I try to unite my two passions, programming and film-making.</p>
             <div className={"tech-stack"}>
                 <h3>Tech Stack</h3>

@@ -2,8 +2,8 @@ const FilmInformation = (dataID) => {
 
     return (
         <div className="FilmInformation" id={"FilmInformationContainer"} hidden={true}>
-            <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"1000rem"} hidden={true}
-                    height={"600rem"} style={{border: "none"}}></iframe>
+            <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"800rem"} hidden={true}
+                    height={"600rem"} style={{border: "none", marginTop: "1.5rem", marginBottom: "1.5rem"}}></iframe>
             <h3 id={"filmName"}>TITLE</h3>
             <div className={"videoFrameContainer"}>
                 <div id={"descriptionContainer"}>
@@ -13,14 +13,18 @@ const FilmInformation = (dataID) => {
                 </div>
                 <div className={"makeOfDescContainer"}>
                     <div id={"directorContainer"}>
-                        <h4 className={"videoFrameh4"}>Director: </h4> <p className={"videoFrameText"}>PLACEHOLDER</p>
+                        <h4 className={"videoFrameh4"}>Director: </h4> <p className={"videoFrameText"} id={"directorText"}>PLACEHOLDER</p>
                     </div>
                     <div id={"dopContainer"}>
-                        <h4 className={"videoFrameh4"}>DOP: </h4> <p className={"videoFrameText"}>PLACEHOLDER</p>
+                        <h4 className={"videoFrameh4"}>DOP: </h4> <p className={"videoFrameText"} id={"dopText"}>PLACEHOLDER</p>
                     </div>
                     <div id={"productionContainer"}>
                         <h4 className={"videoFrameh4"}>Production: </h4> <p
-                        className={"videoFrameText"}>PLACEHOLDER</p>
+                        className={"videoFrameText"} id={"productionText"}>PLACEHOLDER</p>
+                    </div>
+                    <div id={"yopContainer"}>
+                        <h4 className={"videoFrameh4"}>Year of production: </h4> <p
+                        className={"videoFrameText"} id={"yopText"}>PLACEHOLDER</p>
                     </div>
                 </div>
             </div>

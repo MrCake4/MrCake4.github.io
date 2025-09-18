@@ -25,6 +25,10 @@ const Projects = () => {
                         <Film
                         key={index}
                         filmName={film.name}
+                        director={film.director}
+                        production={film.production}
+                        dop={film.dop}
+                        yop={film.yop}
                         description={film.desc}
                         img={(film.shortName || "placeholder") + ".jpg"}
                         alt={("Poster " + film.name) || ""}

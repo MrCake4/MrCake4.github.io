@@ -7,6 +7,7 @@
     border: 1px solid var(--highlightBackgroundColor);
     border-radius: 5px;
     background-color: var(--highlightBackgroundColor);
+    width: 50%;
 }
 
 .videoFrameContainer{
@@ -14,19 +15,30 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    justify-content: space-between;
-    width: 50%;
+    width: 90%;
+}
+
+.videoFrameContainer> *{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .makeOfDescContainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
+}
+
+.makeOfDescContainer > * {
+    text-align: left;
 }
 
 #descriptionContainer {
     width: 50%;
+}
+
+#directorContainer > * {
+    margin-top: 0;
 }
 
 #description{

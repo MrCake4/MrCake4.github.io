@@ -5,6 +5,10 @@ import FilmInformation from "./FilmInformation";
 const Film = (film) => {
     let filmName = film.filmName;
     let description = film.description;
+    let director = film.director;
+    let dop = film.dop;
+    let production = film.production;
+    let yop = film.yop;
     let filmID = film.filmID;
     let link = film.link;
 
@@ -15,6 +19,10 @@ const Film = (film) => {
         let filmNameDisplay = document.getElementById("filmName")
         let filmInformationContainer = document.getElementById("FilmInformationContainer");
         let filmDescription = document.getElementById("description");
+        let filmDirector = document.getElementById("directorText");
+        let filmProduction = document.getElementById("productionText");
+        let filmDop = document.getElementById("dopText");
+        let filmYop = document.getElementById("yopText");
 
         // set container to visible
         if (filmInformationContainer.hidden) filmInformationContainer.hidden = false;
@@ -23,6 +31,10 @@ const Film = (film) => {
         videoFrame.src = link;
         filmNameDisplay.innerText = filmName;
         filmDescription.innerText = description;
+        filmDirector.innerText = director;
+        filmDop.innerText = dop;
+        filmYop.innerText = yop;
+        filmProduction.innerText = production;
 
         // check if video frame has a src
         console.log(videoFrame.src);
