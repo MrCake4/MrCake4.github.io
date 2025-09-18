@@ -1,19 +1,29 @@
 const FilmInformation = (dataID) => {
 
-    return(
+    return (
         <div className="FilmInformation" id={"FilmInformationContainer"} hidden={true}>
-            <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"1000rem"} height={"600rem"} style={{border: "none"}}></iframe>
-            <h3 id={"filmName"}>test</h3>
-            <table>
-                <tr>
-                    <th>test</th>
-                    <th>test</th>
-                </tr>
-                <tr>
-                    <th>test</th>
-                    <th>test</th>
-                </tr>
-            </table>
+            <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"1000rem"} hidden={true}
+                    height={"600rem"} style={{border: "none"}}></iframe>
+            <h3 id={"filmName"}>TITLE</h3>
+            <div className={"videoFrameContainer"}>
+                <div id={"descriptionContainer"}>
+                    <p id={"description"}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                        et accusam et justo duo dolores et ea rebum.</p>
+                </div>
+                <div className={"makeOfDescContainer"}>
+                    <div id={"directorContainer"}>
+                        <h4 className={"videoFrameh4"}>Director: </h4> <p className={"videoFrameText"}>PLACEHOLDER</p>
+                    </div>
+                    <div id={"dopContainer"}>
+                        <h4 className={"videoFrameh4"}>DOP: </h4> <p className={"videoFrameText"}>PLACEHOLDER</p>
+                    </div>
+                    <div id={"productionContainer"}>
+                        <h4 className={"videoFrameh4"}>Production: </h4> <p
+                        className={"videoFrameText"}>PLACEHOLDER</p>
+                    </div>
+                </div>
+            </div>
             <div className={"awards"}>
                 <h4>Awards</h4>
             </div>

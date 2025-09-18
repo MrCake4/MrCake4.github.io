@@ -25,7 +25,7 @@ const Projects = () => {
                         <Film
                         key={index}
                         filmName={film.name}
-                        description={film.description}
+                        description={film.desc}
                         img={(film.shortName || "placeholder") + ".jpg"}
                         alt={("Poster " + film.name) || ""}
                         link={film.link}

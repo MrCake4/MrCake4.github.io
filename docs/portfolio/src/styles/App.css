@@ -3,6 +3,7 @@
 :root {
     --backgroundColor: #0b090a;
     --subtleBackgroundColor: #161a1d;
+    --highlightBackgroundColor: #2e3436;
     --titleColor: #fcfcfc;
     --textColor: #f5f3f4;
     --subtleTextColor: #737373;
@@ -40,6 +41,10 @@ p {
 
 .App-navbar {
     background: var(--backgroundColor);
+}
+
+.Navbar-Container {
+    z-index: 10;
 }
 
 a {
@@ -166,6 +171,7 @@ h2 {
 .card:active {
     transform: scale(0.95);
 }
+
 
 /* FOOTER */
 

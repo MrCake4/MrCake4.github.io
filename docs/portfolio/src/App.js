@@ -1,5 +1,8 @@
 import logo from './logo.svg';
+// Stylesheets
 import './styles/App.css';
+import './styles/VideoPlayer.css'
+
 import Header from './components/Header.js';
 import Navbar from './components/Navbar.js';
 import About from './components/About.js';

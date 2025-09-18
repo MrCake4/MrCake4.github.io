@@ -14,6 +14,7 @@ const Film = (film) => {
         let videoFrame = document.getElementById("videoFrame");
         let filmNameDisplay = document.getElementById("filmName")
         let filmInformationContainer = document.getElementById("FilmInformationContainer");
+        let filmDescription = document.getElementById("description");
 
         // set container to visible
         if (filmInformationContainer.hidden) filmInformationContainer.hidden = false;
@@ -21,8 +22,14 @@ const Film = (film) => {
         // replace values of tags in FilmInformation.js
         videoFrame.src = link;
         filmNameDisplay.innerText = filmName;
+        filmDescription.innerText = description;
 
-        videoFrame.scrollIntoView({ behavior: "smooth" });
+        // check if video frame has a src
+        console.log(videoFrame.src);
+        if(videoFrame.src == "http://localhost:3000/null") {videoFrame.hidden=true}
+        else {videoFrame.hidden=false}
+
+        filmInformationContainer.scrollIntoView({ behavior: "smooth" });
     }
 
     // Make titles shorter

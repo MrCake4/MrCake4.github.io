@@ -1,0 +1,42 @@
+/* Style Sheet for the Video Player */
+
+.FilmInformation {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    border: 1px solid var(--highlightBackgroundColor);
+    border-radius: 5px;
+    background-color: var(--highlightBackgroundColor);
+}
+
+.videoFrameContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.makeOfDescContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#descriptionContainer {
+    width: 50%;
+}
+
+#description{
+    margin-top: 0;
+}
+
+.videoFrameh4 {
+    display: inline;
+}
+
+.videoFrameText {
+    display: inline;
+}
