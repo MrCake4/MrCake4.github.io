@@ -25,7 +25,7 @@ jobs:
         run: chmod +x node_modules/.bin/react-scripts
 
       - name: Build React app
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Create .nojekyll
         run: touch build/.nojekyll
