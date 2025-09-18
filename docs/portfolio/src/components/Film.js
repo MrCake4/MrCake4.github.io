@@ -25,7 +25,10 @@ const Film = (film) => {
         let filmYop = document.getElementById("yopText");
 
         // set container to visible
-        if (filmInformationContainer.hidden) filmInformationContainer.hidden = false;
+        if (filmInformationContainer.hidden) {
+            filmInformationContainer.style.visibility = "visible";
+            filmInformationContainer.hidden = false;
+        }
 
         // replace values of tags in FilmInformation.js
         videoFrame.src = link;
@@ -45,7 +48,8 @@ const Film = (film) => {
     }
 
     // Make titles shorter
-    if (filmName.length > 16) filmName = filmName.slice(0, 12) + "...";
+    let filmNameDisplay = filmName;
+    if (filmName.length > 16) filmNameDisplay = filmName.slice(0, 12) + "...";
 
     return (
         <div className="Film-Container" style={{alignContent: "center"}} onClick={showInformation}>
@@ -54,7 +58,7 @@ const Film = (film) => {
                  alt={film.alt}
                  style={{width: "15rem"}}
             />
-            <h3>{filmName}</h3>
+            <h3>{filmNameDisplay}</h3>
         </div>
     )
 }

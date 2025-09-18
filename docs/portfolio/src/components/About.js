@@ -43,18 +43,18 @@ const About = () => {
                     /> <p>Photoshop Lightroom</p></li>
                 </ul>
             </div>
-            <div className={"techStack"}>
+            <div className={"tech-stack"}>
                 <h3>Languages</h3>
                 <ul style={{display:"flex", flexDirection:"row", alignItems:"end", justifyContent:"space-evenly"}}>
-                    <li className={"techIcon"}>
+                    <li className={"techIcon"} id={"gerFlag"}>
                         <img src={require("../styles/icons/gerico.png")} alt={"German Flag"} className={"languageIcon"}/>
                         <p>Native</p>
                     </li>
-                    <li className={"techIcon"}>
+                    <li className={"techIcon"} id={"engFlag"}>
                         <img src={require("../styles/icons/engico.png")} alt={"German Flag"} className={"languageIcon"}/>
                         <p>Fluent</p>
                     </li>
-                    <li className={"techIcon"}>
+                    <li className={"techIcon"} id={"espFlag"}>
                         <img src={require("../styles/icons/espico.png")} alt={"German Flag"} className={"languageIcon"}/>
                         <p>A2</p>
                     </li>

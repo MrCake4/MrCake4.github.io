@@ -13,7 +13,7 @@ const Footer = () => {
             <a target={"_blank"} href={"https://brainmade.org/"}>
                 <img id={"brainMade"} src={require("../styles/img/white-logo.png")} alt={"Humanmade.org logo"}/>
             </a>
-            <p>Website created with<br/><FontAwesomeIcon icon={faReact} size={"2x"}/></p>
+            <p id={"react"}>Website created with<br/><FontAwesomeIcon icon={faReact} size={"2x"}/></p>
             <img src={require("../styles/img/heart.png")} style={{width: "4rem"}} alt={"Ukraine heart"}/>
         </div>
     )

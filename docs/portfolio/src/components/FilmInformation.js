@@ -28,9 +28,11 @@ const FilmInformation = (dataID) => {
                     </div>
                 </div>
             </div>
+            {/*
             <div className={"awards"}>
                 <h4>Awards</h4>
             </div>
+            */}
         </div>
     )
 }

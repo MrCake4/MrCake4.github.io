@@ -1,0 +1,111 @@
+/* Kleine Geräte, Handys */
+@media (max-width: 1100px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .Navbar-Container {
+        padding: 1rem 0 !important;
+    }
+
+    .Navbar-Container a {
+        padding: 0.25rem 0.1rem;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .About {
+        width: 90%;
+    }
+
+    .tech-stack ul{
+        padding: 0;
+        align-items: start;
+    }
+
+    .tech-stack ul li{
+        width:50%;
+    }
+
+    .techIcon p {
+        text-align: center;
+    }
+
+    #gerFlag, #engFlag, #espFlag {
+        width: 25%;
+    }
+
+    .projects-container{
+        width: 90% !important;
+    }
+
+    .card {
+        width: 40% !important;
+    }
+
+    .Film-Container {
+        width: 100% !important;
+    }
+
+    .Poster-Image{
+        width: 100% !important;
+    }
+
+    .coding-projects-container {
+        width: 90%;
+    }
+
+    .SocialMedia-container {
+        width: 90% !important;
+    }
+
+    .FilmInformation{
+        width: 100%;
+        align-items: start;
+    }
+
+    .FilmInformation > *{
+        margin: 0.1rem;
+    }
+
+    iframe{
+        width: 100% !important;
+        height: 20rem !important;
+        padding: 0rem !important;
+        margin: 1rem 0 !important;
+    }
+
+    .videoFrameContainer {
+        flex-flow: column nowrap;
+    }
+
+    #descriptionContainer {
+        width: 100%;
+    }
+
+    #filmName {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-container a {
+        width: 25%;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+
+    #brainMade{
+        width: 100% !important;
+    }
+
+    .code-project h3{
+        text-align: left;
+    }
+
+}

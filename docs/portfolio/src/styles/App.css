@@ -172,6 +172,23 @@ h2 {
     transform: scale(0.95);
 }
 
+#react {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    text-align: center;
+}
+
+.FilmInformation {
+    visibility: collapse;
+    padding: 1rem 0;
+}
+
+iframe {
+    width: 90%;
+    height: 30rem;
+}
 
 /* FOOTER */
 
