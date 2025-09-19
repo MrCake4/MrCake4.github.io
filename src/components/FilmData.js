@@ -100,7 +100,8 @@ let filmData = {
         director: "Mika Rau & Winston J. Reichelt",
         production: "Jugendfilmcamp Arendsee",
         dop: "Winston J. Reichelt",
-        desc: "Sommer Reichelt",
+        yop: "2024",
+        desc: "In a secret cooperate experiment, a human is stuck in a room full of AI's. The AI's have to find out which one of them the human is and kill him.",
         awards: [],
         link: null
     },
