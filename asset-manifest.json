@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7fbcf6d.css",
+    "main.js": "/static/js/main.384b338d.js",
+    "static/media/so89.jpg": "/static/media/so89.319e34d664313c87eda7.jpg",
+    "static/media/retu.jpg": "/static/media/retu.8b9a055d044de27bf196.jpg",
+    "static/media/shst.jpg": "/static/media/shst.aed3ad72e79bcce65fd3.jpg",
+    "static/media/cool.jpg": "/static/media/cool.3b3d2c484df7bb736f3a.jpg",
+    "static/media/winx.jpg": "/static/media/winx.2d60bcc3066842264592.jpg",
+    "static/media/zeit.jpg": "/static/media/zeit.0b285a7212a55c34c0fe.jpg",
+    "static/media/cffw.jpg": "/static/media/cffw.bc4d3c26e6ee6e12cfed.jpg",
+    "static/media/mull.jpg": "/static/media/mull.03a881b0a999275a16b2.jpg",
+    "static/media/heart.png": "/static/media/heart.2112efdcec2bd340e98b.png",
+    "static/media/white-logo.png": "/static/media/white-logo.dc4c39c384393a987a79.png",
+    "static/media/coex.jpg": "/static/media/coex.4d3d91722cafce7dd56e.jpg",
+    "static/media/maxresdefault.jpg": "/static/media/maxresdefault.618f0c285356115b5931.jpg",
+    "static/media/plac.jpg": "/static/media/plac.54444d7581ce6e3a7eeb.jpg",
+    "static/media/addi.jpg": "/static/media/addi.e2c63b8632d1e6ea92ef.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.d7fbcf6d.css.map": "/static/css/main.d7fbcf6d.css.map",
+    "main.384b338d.js.map": "/static/js/main.384b338d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7fbcf6d.css",
+    "static/js/main.384b338d.js"
+  ]
+}
