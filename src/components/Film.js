@@ -41,7 +41,7 @@ const Film = (film) => {
 
         // check if video frame has a src
         console.log(videoFrame.src);
-        if(videoFrame.src == "http://localhost:3000/null") {videoFrame.hidden=true}
+        if(videoFrame.src == "http://localhost:3000/null" || "null") {videoFrame.hidden=true}
         else {videoFrame.hidden=false}
 
         filmInformationContainer.scrollIntoView({ behavior: "smooth" });
