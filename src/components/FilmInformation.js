@@ -3,7 +3,8 @@ const FilmInformation = (dataID) => {
     return (
         <div className="FilmInformation" id={"FilmInformationContainer"} hidden={true}>
             <iframe id={"videoFrame"} src={"https://www.youtube.com/embed/AmszTknSqzA "} width={"800rem"} hidden={true}
-                    height={"600rem"} style={{border: "none", marginTop: "1.5rem", marginBottom: "1.5rem"}}></iframe>
+                    height={"600rem"} style={{border: "none", marginTop: "1.5rem", marginBottom: "1.5rem"}}
+                    allowFullScreen={true}></iframe>
             <h3 id={"filmName"}>TITLE</h3>
             <div className={"videoFrameContainer"}>
                 <div id={"descriptionContainer"}>
